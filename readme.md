@@ -51,6 +51,9 @@
         });
 #### 单发通知栏消息
 
+更多的anroid样例参考👇链接
+http://developer.huawei.com/consumer/cn/wiki/index.php?title=%E6%8E%A5%E5%8F%A3%E6%96%87%E6%A1%A3#4.1_.E6.8E.A5.E5.8F.A3.E5.AE.9A.E4.B9.89
+   
     api.openpush_message_psSingleSend(
         {
             deviceToken:'xxxxxxx',
@@ -63,6 +66,10 @@
         });
 #### 群发通知栏消息
 
+更多的anroid样例参考👇链接
+http://developer.huawei.com/consumer/cn/wiki/index.php?title=%E6%8E%A5%E5%8F%A3%E6%96%87%E6%A1%A3#4.1_.E6.8E.A5.E5.8F.A3.E5.AE.9A.E4.B9.89
+ 
+ 
     api.openpush_message_psBatchSend(
         {
             deviceTokens:['xxxxxxx','dddddddddd'],
